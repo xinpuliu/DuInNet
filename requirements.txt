@@ -1,0 +1,11 @@
+easydict
+opencv-python
+transform3d
+h5py
+timm
+open3d
+tensorboardX
+ninja==1.11.1
+torch-scatter
+einops
+nvitop
