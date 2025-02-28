@@ -46,9 +46,9 @@ cd ../..
 
 
 ### Datasets
-1. ShapeNet-ViPC dataset: https://pan.baidu.com/s/1NJKPiOsfRsDfYDU_5MH28A (143GB, code: **ar8l**). Then run ``cat ShapeNetViPC-Dataset.tar.gz* | tar zx``.
-2. ModelNet-MPC dataset (Ours): https://pan.baidu.com/s/1y_sfpd10DSBPiYwj4AYkmA (20GB, code: **nudt**). Then run ``unzip ModelNet-MPC.zip``.
-3. ShapeNet-MPC dataset (Ours): https://pan.baidu.com/s/1CgXsPJesoyTbabVzuA-47A (47GB, code: **nudt**). Then run ``tar -zxvf ShapeNet-MPC.tgz``.
+1. ShapeNet-ViPC dataset (143GB): [BaiduNetdisk](https://pan.baidu.com/s/1NJKPiOsfRsDfYDU_5MH28A)(code: **ar8l**). Then run ``cat ShapeNetViPC-Dataset.tar.gz* | tar zx``.
+2. ModelNet-MPC dataset (20GB, **Ours**): [HuggingFace](https://huggingface.co/datasets/xinpuliu/ModelNetMPC) or [BaiduNetdisk](https://pan.baidu.com/s/1y_sfpd10DSBPiYwj4AYkmA)(code: **nudt**). Then run ``unzip ModelNet-MPC.zip``.
+3. ShapeNet-MPC dataset (47GB, **Ours**): [HuggingFace](https://huggingface.co/datasets/xinpuliu/ShapeNetMPC) or [BaiduNetdisk](https://pan.baidu.com/s/1CgXsPJesoyTbabVzuA-47A)(code: **nudt**). Then run ``tar -zxvf ShapeNet-MPC.tgz``.
 
 
 ### Training
@@ -63,11 +63,13 @@ python main.py --test
 ```
 
 ## Acknowledgement
-The repository is based on [EGIInet](https://github.com/WHU-USI3DV/EGIInet), some of the code is borrowed from:
+The repository is based on [EGIInet](https://github.com/WHU-USI3DV/EGIInet), some of the code and dataset are borrowed from:
 - [Meta-Transformer](https://github.com/invictus717/MetaTransformer)
 - [SVDFormer](https://github.com/czvvd/SVDFormer_PointSea)
 - [ViPC](https://github.com/Hydrogenion/ViPC)
 - [XMFnet](https://github.com/diegovalsesia/XMFnet)
+- [ModelNet](https://modelnet.cs.princeton.edu/)
+- [ShapeNet](https://shapenet.org/)
 
 Thanks for their opensourceing.
 
